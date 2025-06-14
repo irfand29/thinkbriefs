@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ThinkBriefs - Summarize Anything</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #0d47a1, #1976d2);
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 120px 30px 80px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+
+    .cta-button {
+      background: #ffca28;
+      color: #000;
+      padding: 14px 30px;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 60px 20px;
+      text-align: center;
+      background-color: transparent;
+    }
+
+    .feature-box {
+      width: 300px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature-box h3 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px 20px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    footer a {
+      color: #ffca28;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="ThinkBriefs Logo" />
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <h1>Summarize Anything in Seconds</h1>
+  <p>ThinkBriefs helps you turn long texts into clear, concise summaries using AI — instantly.</p>
+  <a href="https://summarize.thinkbriefs.xyz" class="cta-button">Try Now</a>
+</section>
+
+<section id="features" class="features">
+  <div class="feature-box">
+    <h3>Fast & Accurate</h3>
+    <p>Summarize long articles, blogs, or essays in seconds.</p>
+  </div>
+  <div class="feature-box">
+    <h3>Simple to Use</h3>
+    <p>No signup required. Paste, click, done.</p>
+  </div>
+  <div class="feature-box">
+    <h3>Powered by AI</h3>
+    <p>Backed by cutting-edge NLP models for quality summaries.</p>
+  </div>
+  <div class="feature-box">
+    <h3>Real-Time Processing Speed</h3>
+    <p>Get summaries instantly with our optimized infrastructure.</p>
+  </div>
+  <div class="feature-box">
+    <h3>Seamless Integration Tools</h3>
+    <p>Connect easily with your favorite platforms and services.</p>
+  </div>
+  <div class="feature-box">
+    <h3>Developer-Friendly API</h3>
+    <p>Easily integrate our summarizer with your workflow using our user-friendly API.</p>
+  </div>
+</section>
+
+<footer id="contact">
+  Contact us: <a href="mailto:support@thinkbriefs.xyz">support@thinkbriefs.xyz</a><br>
+  &copy; 2025 ThinkBriefs. All rights reserved.
+</footer>
+
+</body>
+</html>
